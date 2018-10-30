@@ -1,4 +1,4 @@
-# XIE AutoSwitch
+# AMPress
 
 
 AMPress is a AMP first, scaleable, modular CMS built for the modern web.
