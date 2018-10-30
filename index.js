@@ -26,15 +26,15 @@ app.set('view engine', 'hbs');
 
 
 app.use('/', routes);
+app.use('/img', express.static('img'))
 
 //Redirect to HTTPS
-app.use(function(req, res, next) {
-  if (req.secure) {
-      next();
-  } else {
-      res.redirect('https://' + req.headers.host + req.url);
-  }
-});
+// app.use(function(req, res, next) {
+//   if ((req.get('X-Forwarded-Proto') !== 'https')) {
+//     res.redirect('https://' + req.get('Host') + req.url);
+//   } else
+//     next();
+// });
 
 
 // Starting both http & https servers
