@@ -1,0 +1,16 @@
+{
+  "name": "AMPress",
+  "version": "0.0.1",
+  "description": "This is a AMP first, scalable, modular CMS built for the modern web.",
+  "main": "index.js",
+  "author": "Preet Parekh",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.18.5",
+    "path": "^0.12.7"
+  }
+}

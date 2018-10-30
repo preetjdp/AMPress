@@ -1,0 +1,31 @@
+<amp-story standalone title="Stories in AMP - Hello World" publisher="AMP Project" publisher-logo-src="https://ampbyexample.com/favicons/coast-228x228.png"
+        poster-portrait-src="https://ampbyexample.com/img/story_dog2_portrait.jpg" poster-square-src="https://ampbyexample.com/img/story_dog2_square.jpg"
+        poster-landscape-src="https://ampbyexample.com/img/story_dog2_landscape.jpg">
+        <amp-story-page id="page-1">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="https://ampbyexample.com/img/story_dog2.jpg" width="720" height="1280" layout="responsive">
+                </amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical">
+                <h1>Hello World</h1>
+                <p>This is an AMP Story.</p>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="page-2">
+            <amp-story-grid-layer template="fill">
+                <amp-video autoplay loop width="720" height="960" poster="https://ampbyexample.com/img/story_video_dog_cover.jpg"
+                    layout="responsive">
+                    <source src="https://ampbyexample.com/video/story_video_dog.mp4" type="video/mp4">
+                </amp-video>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="ken-burns-effect1">
+            <amp-story-grid-layer template="fill">
+                <div animate-in="zoom-in" animate-in-duration="30s" class="img-container">
+                    <amp-img id="ken-burns-img1" src="https://picsum.photos/1600/1200?image=1077" animate-in="pan-left"
+                        animate-in-duration="30s" layout="fixed" width="1600" height="1200">
+                    </amp-img>
+                </div>
+            </amp-story-grid-layer>
+        </amp-story-page>
+    </amp-story>
